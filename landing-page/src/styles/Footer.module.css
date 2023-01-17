@@ -1,0 +1,29 @@
+.layoutContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.lastItem {
+    margin-top: auto;
+    height: 20vh;
+    background-color: rgb(250, 136, 136);
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0 20rem;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-weight: 900;
+    text-align: center;
+}
+.headings{
+    color:rgb(79, 79, 79);
+}
+
+.list1>li{
+    list-style: none;
+}
